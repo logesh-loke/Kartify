@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Kartify Ecommerce</title>
+</head>
+
+<body class="bg-white">
+
+
+  <header class="bg-black flex items-center justify-between px-4 md:px-8 py-4">
+
+  
+    <img src="./img/logo-dark.svg" class="h-8 md:h-10">
+
+    <nav class="hidden lg:flex">
+      <ul class="flex gap-6 text-white text-lg">
+        <li><a href="#" class="hover:text-orange-500">Home</a></li>
+        <li><a href="#" class="hover:text-orange-500">Page</a></li>
+        <li><a href="#" class="hover:text-orange-500">Features</a></li>
+        <li><a href="#" class="hover:text-orange-500">Core Features</a></li>
+        <li><a href="#" class="hover:text-orange-500">Demo</a></li>
+        <li><a href="#" class="hover:text-orange-500">Documentation</a></li>
+      </ul>
+    </nav>
+
+     <div onclick="toggleMenu()" class="lg:hidden ml-auto pr-4 text-white cursor-pointer">
+      ☰
+    </div>
+    <button class=" lg:block px-5 py-2 rounded-full bg-white text-orange-500 hover:bg-orange-600 hover:text-white">
+      Purchase
+    </button>
+
+    <!-- Mobile Menu Icon -->
+
+
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden bg-black text-white px-6 py-4 space-y-3 lg:hidden">
+    <a href="#" class="block hover:text-orange-500">Home</a>
+    <a href="#" class="block hover:text-orange-500">Page</a>
+    <a href="#" class="block hover:text-orange-500">Features</a>
+    <a href="#" class="block hover:text-orange-500">Core Features</a>
+    <a href="#" class="block hover:text-orange-500">Demo</a>
+    <a href="#" class="block hover:text-orange-500">Documentation</a>
+  </div>
+
+  <section class="bg-cover bg-center text-white text-center px-4 md:px-10 pt-20"
+    style="background-image: url('./img/home-section.jpg')">
+
+    <h1 class="text-3xl sm:text-3xl md:text-5xl  font-bold leading-tight">
+      Powerful 
+      <span class="bg-gradient-to-r from-orange-300 to-orange-600 bg-clip-text text-transparent">
+        eCommerce
+      </span>
+      Templates <br> for Every Store
+    </h1>
+
+    <p class="mt-6 text-sm md:text-lg max-w-3xl mx-auto">
+      Start your online shop with responsive, customizable templates built for every niche. - fashion,
+      electronics, grocery, baby care, and more - optimized to boost sales.
+    </p>
+
+    <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <button class="px-6 py-3 rounded-full bg-orange-500 hover:bg-black border border-orange-400">
+        Explore Templates
+      </button>
+      <p class="text-sm text-center">No coding required. start your <br> store in minutes.</p>
+    </div>
+
+    <div class=" overflow-hidden relative flex pt-15">
+          <ul class="animate-marquee flex gap-4 md:gap-6 lg:gap-10">
+              <li><img src="./img/1.jpg " class="img-box border-4 " alt="" srcset=""></li>
+              <li><img src="./img/2.jpg " class="img-box border-4 " alt="" srcset=""></li>
+              <li><img src="./img/3.jpg " class="img-box border-4 " alt="" srcset=""></li>
+              <li><img src="./img/4.jpg " class="img-box border-4 " alt="" srcset=""></li>
+              <li><img src="./img/5.jpg " class="img-box border-4 " alt="" srcset=""></li>
+              
+          </ul>
+      </div>
+      <style>
+
+    .animate-marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    transition: 20s;
+      
+  }
+
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(1%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  </style>
+
+  </section>
+
+  <section class="py-16 px-4 md:px-10">
+
+    <h2 class="text-2xl md:text-4xl text-center font-bold sm:text-1xl ">
+      Exclusive Templates
+    </h2>
+
+    <p class="text-center mt-4 text-gray-500 text-2xl sm:text-1xl " >
+     Discover 50+ outstanding demos geared to your online store! Kartify is your<br>
+     one-stop shop for creating the ideal website!
+    </p>
+
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/1.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        Gadget Store
+      </div>
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/2.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        Megamart
+      </div>
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/3.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        Organic
+      </div>
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/4.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        StyleTech
+      </div>
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/5.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        Electro
+      </div>
+
+      <div class="text-center p-4 shadow rounded-xl hover:scale-105 transition">
+        <img src="./img/6.png" class="mx-auto mb-3 bg-gray-100 p-4 rounded-xl">
+        Baby Shop
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="bg-gray-900 text-white pT-10">
+
+    <div class="flex flex-wrap justify-center gap-10 text-center content-box">
+
+      <div>
+        <img src="./img/1 (1).png" class="h-12 mx-auto mb-2">
+        Frontend Template
+        <p class="text-gray-500 leading-loose">A ready-to-use layout that gives your store a modern look.</p>
+      </div>
+
+      <div>
+        <img src="./img/2 (1).png" class="h-12 mx-auto mb-2">
+        Admin Template
+        <p class="text-gray-500">Supports multiple vendors, making your store marketplace-ready.</p>
+      </div>
+
+      <div>
+        <img src="./img/3 (1).png" class="h-12 mx-auto mb-2">
+        Email Template
+        <p class="text-gray-500">Beautiful Email layouts for consistent branding and engagement.</p>
+      </div>
+
+      <div>
+        <img src="./img/4 (1).png" class="h-12 mx-auto mb-2">
+        Invoice Page
+        <p class="text-gray-500">A clean and modern invoice design for professional billing.</p>
+      </div>
+
+    </div>
+    <div>
+      <h1 class="items-center font-bold text-4xl sm:text-1xl text-center pt-10"> Attractive Page Designs</h1>
+      <p class="text-gray-500 pt-5 text-center text-1xl sm:text-1xl">Explore different layouts to showcase your collections beautifully <br> and attract more customers.</p>
+    </div>  
+    
+    <div class="flex gap-6 p-5 lg:justify-center rounded-full font-medium overflow-scroll lg:flex-row whitespace-nowrap overflow-x-auto no-scrollbar">
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Shop Pages</button>
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Product Pages</button>
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Portfolio Pages</button>
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Blog Pages</button>
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Seller Pages</button>
+      <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Other Pages</button>
+    </div>
+  <div class="w-full  overflow-hidden ">
+  <div class="flex gap-6 overflow- pt-4 marquee-animate">
+    
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/banner.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/four-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/five-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div>
+      <img src="./img/left-sidebar.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/banner.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/four-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/five-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+    
+    <div>
+      <img src="./img/left-sidebar.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+  </div>
+</div>
+<style>
+    .marquee-animate {
+    display: flex;
+    animation: animate 10s linear infinite;
+    transition: 10s;
+      
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateX(1%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+    
+  </section>
+
+  <!-- SCRIPT -->
+  <script>
+  function toggleMenu() {
+    document.getElementById("mobileMenu").classList.toggle("hidden");
+  }
+  </script>
+
+</body>
+</html>
