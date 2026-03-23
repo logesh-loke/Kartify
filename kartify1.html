@@ -78,7 +78,7 @@
               <li><img src="./img/3.jpg " class="img-box border-4 " alt="" srcset=""></li>
               <li><img src="./img/4.jpg " class="img-box border-4 " alt="" srcset=""></li>
               <li><img src="./img/5.jpg " class="img-box border-4 " alt="" srcset=""></li>
-
+              
           </ul>
       </div>
       <style>
@@ -93,7 +93,7 @@
 
   @keyframes marquee {
     0% {
-      transform: translateX(100%);
+      transform: translateX(1%);
     }
     100% {
       transform: translateX(-100%);
@@ -152,7 +152,7 @@
 
   </section>
 
-  <section class="bg-gray-900 text-white py-10">
+  <section class="bg-gray-900 text-white pT-10">
 
     <div class="flex flex-wrap justify-center gap-10 text-center content-box">
 
@@ -186,7 +186,7 @@
       <p class="text-gray-500 pt-5 text-center text-1xl sm:text-1xl">Explore different layouts to showcase your collections beautifully <br> and attract more customers.</p>
     </div>  
     
-    <div class="flex gap-6 p-5 lg:justify-center rounded-full font-medium overflow-scroll lg:flex-row whitespace-nowrap overflo-x-auto ">
+    <div class="flex gap-6 p-5 lg:justify-center rounded-full font-medium overflow-scroll lg:flex-row whitespace-nowrap overflow-x-auto no-scrollbar">
       <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Shop Pages</button>
       <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Product Pages</button>
       <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Portfolio Pages</button>
@@ -194,10 +194,77 @@
       <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Seller Pages</button>
       <button class=" lg:block px-5 py-2 rounded-full bg-gray-950 text-orange-500 hover:bg-orange-600 hover:text-white ">Other Pages</button>
     </div>
+  <div class="w-full  overflow-hidden ">
+  <div class="flex gap-6 overflow- pt-4 marquee-animate">
+    
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/banner.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/four-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/five-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div>
+      <img src="./img/left-sidebar.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/banner.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/collection-two-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/four-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
+
+    <div class="min-w-[250px] flex-shrink-0">
+      <img src="./img/five-grid.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
+    </div>
     
     <div>
-      img*
+      <img src="./img/left-sidebar.jpg" alt="" class="w-100 h-auto sm:h-auto rounded-lg">
     </div>
+
+  </div>
+</div>
+<style>
+    .marquee-animate {
+    display: flex;
+    animation: animate 10s linear infinite;
+    transition: 10s;
+      
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateX(1%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+    
   </section>
 
   <!-- SCRIPT -->
